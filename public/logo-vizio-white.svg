@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 70" fill="none">
+  <!-- Vizio Midia Official Logo (Horizontal White for Dark Backgrounds) -->
+  <!-- Orange Icon on the left -->
+  <g transform="translate(0, 5) scale(0.55)">
+    <path
+      d="M 12,12 L 25,12 L 25,43 L 50,57.5 L 75,43 L 75,12 L 88,12 L 88,52.5 L 50,73.5 L 12,52.5 Z"
+      fill="#FF5B00"
+    />
+    <polygon points="12,52.5 25,43 25,33 12,42" fill="#000000" fill-opacity="0.15" />
+    <polygon points="88,52.5 75,43 75,33 88,42" fill="#000000" fill-opacity="0.15" />
+    <path
+      d="M 12,63 L 50,83.5 L 88,63 L 88,74 L 50,97 L 12,74 Z"
+      fill="#FF5B00"
+    />
+  </g>
+
+  <!-- Typography "vizio" in white -->
+  <g transform="translate(68, 8) scale(1.05)" fill="#FFFFFF">
+    <!-- Letter v -->
+    <path d="M 0,18 L 12.5,50 L 19.5,50 L 32,18 L 25.5,18 L 16,42 L 6.5,18 Z" />
+
+    <!-- Letter i (1) -->
+    <rect x="39" y="18" width="6.5" height="32" rx="0.5" />
+    <circle cx="42.25" cy="10" r="3.5" />
+
+    <!-- Letter z -->
+    <polygon points="52.5,18 78.5,18 78.5,24 60.5,44 78.5,44 78.5,50 52.5,50 52.5,44 70.5,24 52.5,24" />
+
+    <!-- Letter i (2) -->
+    <rect x="85.5" y="18" width="6.5" height="32" rx="0.5" />
+    <circle cx="88.75" cy="10" r="3.5" />
+
+    <!-- Letter o -->
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M 113,18 C 120.7,18 127,25.2 127,34 C 127,42.8 120.7,50 113,50 C 105.3,50 99,42.8 99,34 C 99,25.2 105.3,18 113,18 Z M 113,24.4 C 108.9,24.4 105.5,28.7 105.5,34 C 105.5,39.3 108.9,43.6 113,43.6 C 117.1,43.6 120.5,39.3 120.5,34 C 120.5,28.7 117.1,24.4 113,24.4 Z"
+    />
+  </g>
+</svg>

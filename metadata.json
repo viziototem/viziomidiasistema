@@ -1,0 +1,6 @@
+{
+  "name": "Vizio Midia",
+  "description": "Sistema interno de gestão de projetos, clientes, tarefas, CRM, arquivos e portal do cliente para a Vizio Midia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --vizio-primary: #FF6A00;
+    --vizio-primary-hover: #E65F00;
+    --vizio-dark: #111111;
+    --vizio-charcoal: #1E1E1E;
+    --vizio-card-bg: #FFFFFF;
+  }
+
+  /* Custom scrollbar for Kanban and general UI */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #D1D5DB;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9CA3AF;
+  }
+}
+
+.kanban-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+.kanban-scroll::-webkit-scrollbar-track {
+  background: #E5E7EB;
+  border-radius: 8px;
+}
+.kanban-scroll::-webkit-scrollbar-thumb {
+  background: #9CA3AF;
+  border-radius: 8px;
+}
